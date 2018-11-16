@@ -1,0 +1,124 @@
+a {
+	text-decoration: none;
+}
+body, html {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+  background:white;
+  text-align: center;
+ 
+}
+
+.nav-bar {
+	text-align; center;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	font-family: Palatino Linotype;
+	grid-gap: 5px;
+}
+.button {
+	text-align: center;
+	color: black;
+}
+.button:hover {
+	color: #156ea1;
+}
+.pimg1 , .pimg2 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	z-index: 0;
+}
+
+.pimg1 {
+	min-height: 100%;
+	background-image: url(../images/lu.jpg);
+	
+}
+.pimg2 {
+	min-height: 100%;
+	background-image: url(../images/contact.jpg);	
+}
+.TITLE {
+	background:white;
+}
+.HISTORY {
+	font-family: NSimSun;
+	text-align: center;
+	background:white;
+	color: black;
+}
+.WANDERERS {
+	font-family: Cordia New;
+	text-align: center;
+	background:white;
+	color: grey;
+}
+.main-article{
+	margin-bottom:10px;
+}
+.main {
+	display: grid;
+	grid-gap:0;
+	grid-template-columns: 1fr 1fr;
+	padding:0;
+	margin-bottom: 0;
+	font-family: Arial;
+	background: pink;
+}
+.pic-left{
+	margin: 0;
+	padding: 0;
+	background: white;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+.pic-right {
+	padding: 0;
+	background: white;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+.pic-left-first {
+	padding: 0;
+	background: white;
+	text-align:center;
+}
+.pic-left-second {
+	padding: 0;
+	background: white;	
+	text-align:center;
+}
+.pic-right-first {
+	padding: 0;
+	background: white;
+	text-align:center;
+
+}
+.pic-right-second {
+	padding: 0;
+	background: white;
+	text-align:center;
+}
+p {
+	font-family: Cordia New;
+	text-align: Center;
+	font-size: 30px;
+}
+.US {
+	font-family: NSimSun;
+	text-align: center;
+	background:white;
+	color: black;
+}
+

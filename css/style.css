@@ -1,0 +1,305 @@
+a {
+	text-decoration: none;
+}
+body, html {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+  background:white;
+  text-align: center;
+ 
+}
+
+.nav-bar {
+	text-align; center;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	font-family: Palatino Linotype;
+	grid-gap: 5px;
+}
+.button {
+	text-align: center;
+	color: black;
+}
+.button:hover {
+	color: #156ea1;
+}
+.TRUST {
+	background:white;
+}
+.NAME {
+	font-family: NSimSun;
+	text-align: center;
+	background:white;
+	color: black;
+}
+.RELY {
+	font-family: Cordia New;
+	text-align: center;
+	background:white;
+	color: grey;
+}
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	z-index: 0;
+}
+
+.pimg1 {
+	min-height: 100%;
+	background-image: url(../images/wane.jpg);
+	
+}
+
+.pimg2 {
+	min-height: 50%;
+	background-image: url(../images/play.jpg);	
+}
+
+.pimg3 {
+	min-height: 100%;
+	background-image: url(../images/sale.jpg);
+}
+.pimg4 {
+	min-height: 100%;
+	background-image: url(../images/koala.jpg);
+}
+.pimg5 {
+	min-height: 100%;
+	background-image: url(../images/ret.jpg);
+}
+
+.ptext {
+  position:absolute;
+  top: 65%;
+  width:100%;
+  text-align: center;
+  color:white;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.border {
+	background-color: #156ea1;
+	padding: 20px;
+	font-family: Bookman Old Style;
+	color: black;
+	text-decoration: none;
+}
+.border:hover{
+	background:darkgrey;
+}
+
+.OFFER {
+	background:white;
+}
+.TOP {
+	font-family: NSimSun;
+	text-align: center;
+	background:white;
+	color: black;
+}
+.LOOK {
+	font-family: Cordia New;
+	text-align: center;
+	background:white;
+	color: grey;
+}
+.OFFER2 {
+	background:white;
+}
+.POP {
+	font-family: NSimSun;
+	text-align: center;
+	background:white;
+	color: black;
+}
+
+.main {
+	display: grid;
+	grid-gap:0;
+	grid-template-columns: 1fr 1fr;
+	padding:0;
+	margin-bottom: 0;
+	font-family: Arial;
+	background: pink;
+}
+.pic-left{
+	margin: 0;
+	padding: 0;
+	background: white;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+.pic-right {
+	padding: 0;
+	background: white;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+.pic-left-first {
+	padding: 0;
+	background: white;
+	text-align:center;
+}
+.pic-left-second {
+	padding: 0;
+	background: white;	
+	text-align:center;
+}
+.pic-right-first {
+	padding: 0;
+	background: white;
+	text-align:center;
+
+}
+.pic-right-second {
+	padding: 0;
+	background: white;
+	text-align:center;
+}
+.main-article {
+	display: grid;
+	grid-gap:0;
+	grid-template-columns: 1fr 1fr;
+	padding:0;
+	margin-bottom: 0;
+	font-family: Arial;
+	background: pink;
+}
+.showcase {
+	margin-bottom: 20px;
+	padding:405px;
+	background-image: url(../images/life.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+
+}
+#button {
+	background-color: #156ea1;
+	padding: 20px;
+	font-family: NSimSun;
+	color: black;
+	text-decoration: none;
+}
+#button:hover {
+	background: darkgrey;
+}
+#button2 {
+	background-color: #156ea1;
+	padding: 20px;
+	font-family: Bookman Old Style;
+	color: black;
+	text-decoration: none;
+}
+#button2:hover {
+	background-color: darkgrey;
+}
+.container {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 20px;
+	padding: 50px;
+}
+.one {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	padding: 100px;
+	background-image: url(../images/bojo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.two {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background: orange;
+	padding: 100px;
+	background-image: url(../images/dava.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.three {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	background: yellow;
+	padding: 100px;
+	background-image: url(../images/bora.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.four {
+	grid-column: 4/5;
+	grid-row: 1/2;
+	background: green;
+	padding: 100px;
+	background-image: url(../images/batang.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.five {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	background: blue;
+	padding:100px;
+	background-image: url(../images/pala.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.six{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background: brown;
+	padding: 100px;
+	background-image: url(../images/mindo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.seven {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	background: violet;
+	padding: 100px;
+	background-image: url(../images/albay.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+.eight {
+	grid-column: 4/5;
+	grid-row: 2/3;
+	background: pink;
+	padding: 100px;
+	background-image: url(../images/cami.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+}
+
